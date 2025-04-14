@@ -1,3 +1,4 @@
+Single User Sign Up
 {
   "FullName": "John Doe",
   "Email": "john09@gmail.com",
@@ -5,4 +6,14 @@
   "password": "John@123",
   "state": "Madhya pradesh",
   "city": "Indore"
+}
+
+Multiple User Sign Up
+{
+  "FullName": "${FullName}",
+  "Email": "${Email}",
+  "PhoneNo": "${PhoneNo}",
+  "password": "${password}",
+  "state": "${state}",
+  "city": "${city}"
 }
